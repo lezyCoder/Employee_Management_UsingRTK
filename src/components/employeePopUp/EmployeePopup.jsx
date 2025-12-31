@@ -3,7 +3,7 @@ import { closeEmployeePopUP } from "../../store/features/popup/popup.slice";
 
 const EmployeePopup = () => {
   const employeePopUp = useSelector((state) => state.popup.employeePopUp);
-
+  
   if (!employeePopUp) return null;
   const dispatch = useDispatch();
   return (

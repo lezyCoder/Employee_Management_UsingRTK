@@ -1,3 +1,4 @@
+import DeletePopUp from "./components/deletePopUp/deletePopUp.jsx";
 import EmployeeList from "./components/employee/EmployeeList.jsx";
 import EmployeePopup from "./components/EmployeePopup/EmployeePopup";
 import Footer from "./components/Footer";
@@ -8,7 +9,7 @@ const App = () => {
   return (
     <div className="min-h-screen w-full flex flex-col">
       <EmployeePopup />
-      <
+      <DeletePopUp />
       <Navbar />
       <div className="flex-1">
         <EmployeeList />
